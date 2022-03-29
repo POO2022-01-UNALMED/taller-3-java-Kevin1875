@@ -2,12 +2,12 @@ package televisores;
 
 
 public class Control {
-    private Tv tv;
+    private TV tv;
     
     
     
     
-    public void enlazar(Tv tv) {
+    public void enlazar(TV tv) {
         this.tv=tv;
         this.tv.setControl(this);
               
@@ -53,11 +53,11 @@ public class Control {
     }
     
 
-    public Tv getTv() {
+    public TV getTv() {
         return tv;
     }
 
-    public void setTv(Tv tv) {
+    public void setTv(TV tv) {
         this.tv = tv;
     }
     
